@@ -1,0 +1,17 @@
+    *{box-sizing:border-box;} body{font-family:Arial,sans-serif;max-width:480px;margin:40px auto;padding:0 20px;background:#F8FAFF;}
+    h1{color:#0F172A;} .search{display:flex;gap:8px;margin-bottom:24px;}
+    input{flex:1;padding:10px 14px;border:2px solid #E2E8F0;border-radius:8px;font-size:1rem;outline:none;}
+    input:focus{border-color:#1A3FAA;}
+    .btn{padding:10px 20px;background:#1A3FAA;color:white;border:none;border-radius:8px;cursor:pointer;font-weight:600;}
+    .card{background:white;border:1px solid #E2E8F0;border-radius:16px;padding:32px;text-align:center;}
+    .weather-icon{font-size:4rem;margin-bottom:8px;}
+    .temp{font-size:3rem;font-weight:800;color:#0F172A;}
+    .city{font-size:1.2rem;color:#64748B;margin:4px 0;}
+    .details{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;}
+    .detail{background:#F8FAFF;border-radius:8px;padding:12px;}
+    .detail-label{font-size:0.75rem;color:#94A3B8;margin-bottom:4px;}
+    .detail-value{font-weight:700;color:#0F172A;}
+    .loading{text-align:center;color:#64748B;padding:40px;}
+    .error{background:#FEF2F2;border:1px solid #FCA5A5;border-radius:8px;padding:16px;color:#B91C1C;}
+    .skeleton{background:linear-gradient(90deg,#F1F5F9 25%,#E2E8F0 50%,#F1F5F9 75%);background-size:400px 100%;border-radius:8px;animation:shimmer 1.4s ease infinite;}
+    @keyframes shimmer{0%{background-position:-400px 0}100%{background-position:400px 0}}
